@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="front-card">
+        <span>0000 0000 0000 0000</span>
+        <span>JANE APLESSED</span>
+        <span>00 / 00</span>
+      </div>
+      <div class="back-card">
+        <span>000</span>
+      </div>
+    </div>
+    <div class="right">
+      <form action="get" class="form">
+        <div>
+          <label>CARDHOLDER NAME : </label>
+          <input type="text" placeholder="e.g Jane Apleseed">
+        </div>
+        <div>
+          <label>CARDHOLDER NUMBER : </label>
+          <input type="text" id="cardholder" placeholder="e.g 1234 5678 9123 0000">
+        </div>
+        <div> 
+          <div>
+            <div>
+              <label>EXP . DATE ( MM / YY ) : </label>
+            </div>
+            <div>
+              <input type="text" placeholder="MM / YY ">
+            </div>
+          </div>
+          <div>
+            <div><label for="#cvc">CVC : </label></div>
+            <div><input type="text" id="cvc" placeholder="123"> 
+          </div>
+          </div>
+        </div>
+        <div>
+          <button>Confirm</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
